@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 770px) {
+  .card-title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .name {
+    font-size: 30px;
+    padding-top: 10px !important;
+  }
+
+  .email {
+    padding-bottom: 10px;
+  }
+
+  .year-field {
+    padding-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-div {
+    padding: 3% !important;
+  }
+}
+
+.img-shape {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 220px;
+  height: 220px;
+}
